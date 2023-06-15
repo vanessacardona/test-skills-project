@@ -1,6 +1,6 @@
 @import 'fonts';
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 530px) {
    
     .logo {
         font-size: 36px;
@@ -59,4 +59,14 @@
     };
 
 
+}
+@media screen and (min-width: 530px) and (max-width: 760px) {
+    .nav-list li, .nav-logo {
+        font-size: 9px;
+        padding-right: 2rem;
+    };
+
+    .nav-bar-logo { 
+        padding-left: 2rem;
+    }
 }

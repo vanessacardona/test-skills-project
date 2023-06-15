@@ -31,6 +31,10 @@
     cursor: pointer;
 }
 
+.h2-btn:hover {
+    color: $blue;
+}
+
 @media screen and (max-width: 440px) {
     .btn {
         font-size: 10px;

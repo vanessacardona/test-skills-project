@@ -26,6 +26,10 @@
   cursor: pointer;
 }
 
+.h2-btn:hover {
+  color: rgb(84, 116, 253);
+}
+
 @media screen and (max-width: 440px) {
   .btn {
     font-size: 10px;
@@ -301,6 +305,9 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 1113px;
 }
 
@@ -319,7 +326,7 @@ a:hover {
   text-align: center;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 680px) {
   .why-us {
     max-height: 70vh;
   }
@@ -364,6 +371,9 @@ a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 1rem;
   }
   .testimonials {
@@ -393,6 +403,47 @@ a:hover {
     margin-left: 30px;
     padding: 0;
     padding-top: 1rem;
+  }
+  .flex-house, .flex-ocean {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (min-width: 680px) and (max-width: 1100px) {
+  .flex-section {
+    padding-left: 5rem;
+  }
+  .img-mobile {
+    display: block;
+  }
+  .img-testimon {
+    display: none;
+  }
+  .img-mobile-house {
+    display: none;
+  }
+  .p-testimon {
+    margin: 0;
+    padding: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    min-height: 450px;
+  }
+  .image-testimon {
+    display: none;
+  }
+}
+@media screen and (min-width: 1101px) {
+  .img-mobile-house, .img-mobile {
+    display: none;
   }
 }
 .footer-bar {
@@ -448,7 +499,7 @@ a:hover {
     font-size: 13px;
   }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 530px) {
   .logo {
     font-size: 36px;
     text-align: center;
@@ -494,6 +545,15 @@ a:hover {
   p {
     font-size: 60px;
     letter-spacing: -0.8px;
+  }
+}
+@media screen and (min-width: 530px) and (max-width: 760px) {
+  .nav-list li, .nav-logo {
+    font-size: 9px;
+    padding-right: 2rem;
+  }
+  .nav-bar-logo {
+    padding-left: 2rem;
   }
 }
 body {
@@ -544,7 +604,7 @@ section {
   padding: 0;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 680px) {
   h2 {
     font-size: 20px;
     text-align: center;

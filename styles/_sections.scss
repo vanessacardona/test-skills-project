@@ -108,6 +108,7 @@ $assetPath :"../images";
 
 .flex-testimon {
     display: flex;
+    justify-content: center;
     max-width: 1113px;
 
 }
@@ -128,7 +129,7 @@ $assetPath :"../images";
     text-align: center;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 680px) {
 
     .why-us {
         max-height: 70vh;
@@ -164,6 +165,7 @@ $assetPath :"../images";
     .house, .pink-ocean, .testimonials {
         display: flex;
         justify-content: center;
+        align-items: center;
         padding: 1rem;
     }
    
@@ -201,6 +203,53 @@ $assetPath :"../images";
         padding-top: 1rem;
     }
 
-    
+    .flex-house, .flex-ocean {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
 }
+
+@media screen and (min-width: 680px) and (max-width: 1100px) {
+
+    .flex-section {
+        padding-left: 5rem;
+    }
+    .img-mobile {
+       display: block;
+    }
+
+    .img-testimon {
+        display: none;
+    }
+
+    .img-mobile-house {
+        display: none;
+    }
+
+    .p-testimon {
+        margin: 0;
+        padding: 2rem;
+        padding-top: 1rem;
+        text-align: center;
+        min-height: 450px;
+
+    }
+
+    .image-testimon {
+        display: none;
+    }
+
+    .flex-testimon {
+
+    }
+   
+    }
+
+    @media screen and (min-width: 1101px) {
+
+        .img-mobile-house, .img-mobile {
+            display: none;
+        }
+    }
