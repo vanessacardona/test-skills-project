@@ -1,6 +1,7 @@
 $assetPath :"../images";
 
 
+
 .why-us {
     background-image: url(#{$assetPath}/thecastle.png);
     background-repeat: no-repeat;
@@ -13,24 +14,19 @@ $assetPath :"../images";
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-align: start;
     gap: 110px;
 }
 
 .text-section {
-   letter-spacing: 1.6px;
     max-width: 560px;
-    width: 100%;
-    font-size: 16px;
-    line-height: 26px;
-    
+    width: 100%; 
 }
 
 .flex-img {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
     gap: 1rem;
+    padding: 5rem;
 }
 
 .flex-house {
@@ -40,6 +36,7 @@ $assetPath :"../images";
 .flex-mountains {
     justify-self: end;
 }
+
 
 .search-select-enjoy {
     height: 30vh;
@@ -51,3 +48,22 @@ $assetPath :"../images";
     padding: 4rem;
 }
 
+
+.house {
+    background-image: url(#{$assetPath}/thehouse.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.pink-ocean {
+    background-image: url(#{$assetPath}/ocean.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.testimonials {
+    background-image: url(#{$assetPath}/hiker-beanie.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}

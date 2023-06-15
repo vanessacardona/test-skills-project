@@ -146,16 +146,12 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: start;
   gap: 110px;
 }
 
 .text-section {
-  letter-spacing: 1.6px;
   max-width: 560px;
   width: 100%;
-  font-size: 16px;
-  line-height: 26px;
 }
 
 .flex-img {
@@ -166,8 +162,8 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 3rem;
   gap: 1rem;
+  padding: 5rem;
 }
 
 .flex-house {
@@ -196,6 +192,24 @@ a:hover {
   padding: 4rem;
 }
 
+.house {
+  background-image: url(../images/thehouse.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.pink-ocean {
+  background-image: url(../images/ocean.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.testimonials {
+  background-image: url(../images/hiker-beanie.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 body {
   max-width: 1740px;
   width: 100%;
@@ -219,4 +233,15 @@ h2 {
   font-size: 36px;
   line-height: 26px;
   text-align: left;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+}
+
+section {
+  margin: 0;
+  padding: 0;
 }
