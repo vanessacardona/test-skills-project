@@ -16,6 +16,20 @@
           align-items: center;
 }
 
+.logo {
+  font-size: 48px;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+  padding-top: 5rem;
+}
+
+.logo-p {
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+}
+
 body {
   width: 100%;
   font-family: "Josefin Sans";
