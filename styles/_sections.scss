@@ -64,8 +64,6 @@ $assetPath :"../images";
     justify-content:left;
     align-items:flex-end;
     padding: 7rem;
-    
-
 }
 
 .flex-house, .flex-ocean {
@@ -155,6 +153,12 @@ $assetPath :"../images";
         gap: 2rem;
         padding: 1rem;
     } 
+
+    .house, .pink-ocean {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
     .p-testimon {
         font-size: 5px;
     }
