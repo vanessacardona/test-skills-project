@@ -3,7 +3,7 @@
 @import 'navigation';
 @import 'sections';
 @import 'footer';
-
+@import 'responsive-styles';
 
 body {
     max-width: 1740px;
@@ -16,7 +16,7 @@ body {
     margin:auto;
 }
 
-h2 {
+h2, .h2-testimon {
     font-family: $heading-btn-font;
     font-size: 36px;
     line-height: 26px;
