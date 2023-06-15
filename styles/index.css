@@ -10,6 +10,8 @@
   padding-left: 2rem;
   padding-right: 2rem;
   border: none;
+  max-width: 228px;
+  opacity: none;
 }
 
 .search-btn {
@@ -129,7 +131,6 @@ a:hover {
 .why-us {
   background-image: url(../images/thecastle.png);
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .flex-section {
@@ -152,6 +153,7 @@ a:hover {
 .text-section {
   max-width: 560px;
   width: 100%;
+  font-family: "Josefin Sans";
 }
 
 .flex-img {
@@ -163,10 +165,9 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
-  padding: 5rem;
 }
 
-.flex-house {
+.flex-house-img {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
@@ -178,24 +179,55 @@ a:hover {
 }
 
 .search-select-enjoy {
-  height: 30vh;
   background-color: #333333;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 6rem;
   padding: 4rem;
 }
 
 .house {
   background-image: url(../images/thehouse.png);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 4rem;
+}
+
+.flex-house {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 374px;
+  max-width: 543px;
+  width: 100%;
+  background-color: #232323;
+  opacity: 90%;
+  padding: 32px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .pink-ocean {
@@ -236,6 +268,7 @@ h2 {
 }
 
 p {
+  font-family: "Josefin Sans";
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 1.6px;
