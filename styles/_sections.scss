@@ -120,6 +120,7 @@ $assetPath :"../images";
     padding-left: 62px;
     margin-left: 0;
     max-height: 284px;
+
 }
 
 .img-testimon {
@@ -130,3 +131,10 @@ $assetPath :"../images";
     text-align: center;
 }
 
+@media screen and (max-width: 440px) {
+    .p-testimon {
+        font-size: 8px;
+    }
+
+  
+}

@@ -46,3 +46,35 @@ section {
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 440px) {
+
+    h2 {
+        font-size: 20px;
+    };
+
+    h3, h4 {
+        font-size: 15px;
+    }
+
+    .text-section {
+        max-width: 340px;
+        font-size: 13px;
+
+    }
+
+    .paragraph {
+        font-size: 8px;
+        line-height: 15px;
+        
+    }
+    
+    .h2-testimon {
+        font-size: 20px;
+        line-height: 0%;
+    }
+
+    img {
+        display: none;
+    }
+}
