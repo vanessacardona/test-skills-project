@@ -263,7 +263,7 @@ a:hover {
 .testimonials {
   background-image: url(../images/hiker-beanie.png);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,6 +302,23 @@ a:hover {
 
 .h2-testimon {
   text-align: center;
+}
+
+.footer-bar {
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body {
