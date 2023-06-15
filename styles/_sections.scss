@@ -104,7 +104,6 @@ $assetPath :"../images";
     align-items:start;
     padding-left: 10rem;
     
-
 }
 
 .flex-testimon {
@@ -145,6 +144,14 @@ $assetPath :"../images";
         margin: auto;
     }
 
+    .flex-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+  
     .search-select-enjoy {
         background-color: $grey;
         display: flex;
@@ -154,22 +161,41 @@ $assetPath :"../images";
         padding: 1rem;
     } 
 
-    .house, .pink-ocean {
+    .house, .pink-ocean, .testimonials {
         display: flex;
         justify-content: center;
         padding: 1rem;
     }
-    .p-testimon {
-        font-size: 5px;
-    }
-
-    .flex-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
-        text-align: center;
+   
+    .testimonials {
+        max-height: 50vh;
+        padding: 0;
+        margin: 0;
     }
   
+    .p-testimon {
+        margin: 0;
+        padding: 2rem;
+        padding-top: 1rem;
+        text-align: center;
+        min-height: 450px;
+
+    }
+
+    .paragraph {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .img-mobile {
+        display: block;
+        overflow: visible;
+        padding-left: 17px;
+        padding-bottom: 1rem;
+
+    }
+
+
     
+
 }
