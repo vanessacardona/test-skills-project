@@ -30,6 +30,10 @@
   letter-spacing: 6.82px;
 }
 
+.scroll-down {
+  text-align: center;
+}
+
 body {
   width: 100%;
   font-family: "Josefin Sans";
