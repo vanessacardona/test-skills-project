@@ -1,0 +1,11 @@
+@import 'fonts';
+@import 'colors';
+
+.search-bar {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: $grey;
+    border: solid $white;
+}
