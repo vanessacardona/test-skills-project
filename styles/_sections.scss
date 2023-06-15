@@ -1,0 +1,17 @@
+$assetPath :"../images";
+
+
+.why-us {
+    background-image: url(#{$assetPath}/thecastle.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+    padding-top: 5rem;
+
+
+}

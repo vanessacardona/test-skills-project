@@ -1,12 +1,16 @@
 @import 'fonts';
 @import 'header';
 @import 'navigation';
+@import 'sections';
 
 
 body {
+    max-width: 1740px;
     width: 100%;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: $main-font;
     color: white;
-
+    margin:auto;
 }
