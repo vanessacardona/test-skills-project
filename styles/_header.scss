@@ -1,0 +1,11 @@
+$assetPath :"../images";
+
+
+.header {
+    background-image: url(#{$assetPath}/blue-mountains.png);
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
