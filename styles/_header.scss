@@ -1,6 +1,7 @@
 $assetPath :"../images";
 @import 'button';
 @import 'search-bar';
+@import 'fonts';
 
 
 .header {
@@ -28,4 +29,8 @@ $assetPath :"../images";
 
 .scroll-down {
     text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    
 }

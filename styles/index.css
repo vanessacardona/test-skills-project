@@ -66,6 +66,9 @@
 
 .scroll-down {
   text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
 }
 
 body {
