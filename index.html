@@ -29,11 +29,12 @@
         <nav class="nav-bar">
             <div class="nav-bar-logo"><a href="index.html">BHROMAON</a></div>
             <div>
-                <ul class="nav-list">
-                    <li class="list-item"><a href="">Who we are</a></li>
-                    <li class="list-item"><a href="">What we do</a></li>
-                    <li class="list-item"><a href="">Travel with us</a></li>
-                    <li class="list-item"><a href="">Contact us</a></li>
+                <ul class="nav-list" id="nav">
+                    <li class="list-item"><a href="#whoweare">Who we are</a></li>
+                    <li class="list-item"><a href="#whatwedo">What we do</a></li>
+                    <li class="list-item"><a href="#travelwithus">Travel with us</a></li>
+                    <li class="list-item"><a href="#contactus">Contact us</a></li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
                 </ul>
             </div>
         </nav>
@@ -129,5 +130,15 @@
         </div>
     </div>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("nav");
+            if (x.className === "nav-list") {
+              x.className += "responsive";
+            } else {
+              x.className = "nav-list";
+            }
+          } 
+        </script>
 </body>
 </html>
