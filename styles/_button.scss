@@ -23,3 +23,8 @@
     border: solid 2px $white;
     margin-left: -4px;
 }
+
+.search-btn:hover, .btn:hover {
+    background-color: $grey;
+    cursor: pointer;
+}
