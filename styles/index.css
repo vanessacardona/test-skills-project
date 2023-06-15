@@ -213,3 +213,10 @@ body {
   color: white;
   margin: auto;
 }
+
+h2 {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  line-height: 26px;
+  text-align: left;
+}
