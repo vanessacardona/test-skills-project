@@ -3,7 +3,7 @@
 @import 'navigation';
 @import 'sections';
 @import 'footer';
-@import 'responsive-styles';
+@import 'responsive-header';
 
 body {
     max-width: 1740px;
@@ -51,6 +51,7 @@ section {
 
     h2 {
         font-size: 20px;
+        text-align: center
     };
 
     h3, h4 {
@@ -66,7 +67,7 @@ section {
     .paragraph {
         font-size: 8px;
         line-height: 15px;
-        
+
     }
     
     .h2-testimon {

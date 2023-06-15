@@ -30,7 +30,8 @@
   .btn {
     font-size: 10px;
     padding: 2px;
-    max-width: 60px;
+    min-width: 120 px;
+    min-height: 44px;
   }
 }
 .search-bar {
@@ -218,9 +219,9 @@ a:hover {
 .house {
   background-image: url(../images/thehouse.png);
   background-repeat: no-repeat;
-  max-height: -webkit-fit-content;
-  max-height: -moz-fit-content;
-  max-height: fit-content;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,8 +320,31 @@ a:hover {
 }
 
 @media screen and (max-width: 440px) {
+  .why-us {
+    max-height: 40vh;
+  }
+  .h2-btn {
+    font-size: 14px;
+    border: solid 1px rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    max-width: 100px;
+    width: 100%;
+    margin: auto;
+  }
+  .search-select-enjoy {
+    background-color: #333333;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
   .p-testimon {
-    font-size: 8px;
+    font-size: 5px;
   }
   .flex-section {
     display: -webkit-box;
@@ -334,6 +358,7 @@ a:hover {
         -ms-flex-pack: center;
             justify-content: center;
     margin: auto;
+    text-align: center;
   }
 }
 .footer-bar {
@@ -488,6 +513,7 @@ section {
 @media screen and (max-width: 440px) {
   h2 {
     font-size: 20px;
+    text-align: center;
   }
   h3, h4 {
     font-size: 15px;
