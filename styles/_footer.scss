@@ -5,5 +5,29 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 33px;
+    padding:0;
+    
+}
+
+.a-footer-linked:link {
+    color: $blue;
+}
+
+.a-footer-linked:hover {
+    color: $white;
+}
+
+.a-footer:hover {
+    color: $blue;
 }
