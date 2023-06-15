@@ -42,7 +42,7 @@
 .header {
   background-image: url(../images/blue-mountains.png);
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,6 +131,13 @@ a:hover {
 .why-us {
   background-image: url(../images/thecastle.png);
   background-repeat: no-repeat;
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .flex-section {
@@ -237,13 +244,64 @@ a:hover {
 .pink-ocean {
   background-image: url(../images/ocean.png);
   background-repeat: no-repeat;
-  height: 100vh;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 7rem;
 }
 
 .testimonials {
   background-image: url(../images/hiker-beanie.png);
   background-repeat: no-repeat;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding-left: 10rem;
+}
+
+.flex-testimon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1113px;
+}
+
+.p-testimon {
+  background-color: #333333;
+  padding-left: 62px;
+  margin-left: 0;
+  max-height: 284px;
+}
+
+.img-testimon {
+  margin-right: 0;
+}
+
+.h2-testimon {
+  text-align: center;
 }
 
 body {
@@ -269,11 +327,13 @@ h2 {
   font-size: 36px;
   line-height: 26px;
   text-align: left;
+  font-weight: 400;
 }
 
 h3, h4 {
   font-size: 20px;
   line-height: 26px;
+  font-weight: 400;
 }
 
 h4 {

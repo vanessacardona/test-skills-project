@@ -6,6 +6,9 @@ $assetPath :"../images";
 .why-us {
     background-image: url(#{$assetPath}/thecastle.png);
     background-repeat: no-repeat;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -76,16 +79,52 @@ $assetPath :"../images";
     margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 40px;
+   
 }
 
 .pink-ocean {
     background-image: url(#{$assetPath}/ocean.png);
     background-repeat: no-repeat;
-    height: 100vh;
+    max-height: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+    padding: 7rem;
 }
 
 .testimonials {
     background-image: url(#{$assetPath}/hiker-beanie.png);
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:start;
+    padding-left: 10rem;
+    
+
 }
+
+.flex-testimon {
+    display: flex;
+    max-width: 1113px;
+
+}
+
+.p-testimon {
+    background-color: $grey;
+    padding-left: 62px;
+    margin-left: 0;
+    max-height: 284px;
+}
+
+.img-testimon {
+    margin-right: 0;
+}
+
+.h2-testimon {
+    text-align: center;
+}
+

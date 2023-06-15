@@ -7,7 +7,7 @@ $assetPath :"../images";
 .header {
     background-image: url(#{$assetPath}/blue-mountains.png);
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
