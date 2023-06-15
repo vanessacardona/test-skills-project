@@ -131,7 +131,7 @@ $assetPath :"../images";
 @media screen and (max-width: 440px) {
 
     .why-us {
-        max-height: 40vh;
+        max-height: 70vh;
     }
 
     .h2-btn {
@@ -183,7 +183,7 @@ $assetPath :"../images";
     }
 
     .paragraph {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 0.5px;
     }
 
@@ -192,9 +192,14 @@ $assetPath :"../images";
         overflow: visible;
         padding-left: 17px;
         padding-bottom: 1rem;
-
     }
 
+    .img-mobile-house {
+        display: block;
+        margin-left: 30px;
+        padding: 0;
+        padding-top: 1rem;
+    }
 
     
 

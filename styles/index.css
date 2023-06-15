@@ -321,7 +321,7 @@ a:hover {
 
 @media screen and (max-width: 440px) {
   .why-us {
-    max-height: 40vh;
+    max-height: 70vh;
   }
   .h2-btn {
     font-size: 14px;
@@ -379,7 +379,7 @@ a:hover {
     min-height: 450px;
   }
   .paragraph {
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 0.5px;
   }
   .img-mobile {
@@ -387,6 +387,12 @@ a:hover {
     overflow: visible;
     padding-left: 17px;
     padding-bottom: 1rem;
+  }
+  .img-mobile-house {
+    display: block;
+    margin-left: 30px;
+    padding: 0;
+    padding-top: 1rem;
   }
 }
 .footer-bar {
