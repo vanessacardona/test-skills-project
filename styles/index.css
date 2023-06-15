@@ -197,6 +197,9 @@ a:hover {
 .house {
   background-image: url(../images/thehouse.png);
   background-repeat: no-repeat;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,10 +210,10 @@ a:hover {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding: 4rem;
+  padding: 7rem;
 }
 
-.flex-house {
+.flex-house, .flex-ocean {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,9 +228,10 @@ a:hover {
   width: 100%;
   background-color: #232323;
   opacity: 90%;
-  padding: 32px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-left: 32px;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 .pink-ocean {
@@ -267,9 +271,13 @@ h2 {
   text-align: left;
 }
 
-h3 {
+h3, h4 {
   font-size: 20px;
   line-height: 26px;
+}
+
+h4 {
+  letter-spacing: 1.5px;
 }
 
 p {

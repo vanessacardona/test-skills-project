@@ -53,16 +53,17 @@ $assetPath :"../images";
 .house {
     background-image: url(#{$assetPath}/thehouse.png);
     background-repeat: no-repeat;
+    max-height: fit-content;
     height: 100%;
     display: flex;
     justify-content:left;
     align-items:flex-end;
-    padding: 4rem;
+    padding: 7rem;
     
 
 }
 
-.flex-house {
+.flex-house, .flex-ocean {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -71,9 +72,10 @@ $assetPath :"../images";
     width: 100%;
     background-color: $dark-grey;
     opacity: 90%;
-    padding: 32px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-left: 32px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 .pink-ocean {
